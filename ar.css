@@ -1,0 +1,47 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.nav{
+    display:flex ;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: aqua;
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: wheat;
+}
+
+.nav a:hover{
+    color: aquamarine;
+}
+.hero{
+    background-image: url();
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-color: ;
+    height: 25vh;
+
+    display:flex
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    
+}
